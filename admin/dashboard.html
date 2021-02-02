@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!--  Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    
+    <title>Notes MarketPlace</title>
+</head>
+
+<body>
+    
+    <!-- header -->
+    <header>
+       <nav class="navbar navbar-expand-lg fixed-top white-nav-top">
+           <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+           <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                   <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p>Notes</p></a>
+                                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="notes-under-review.html">Notes Under Review</a>
+                            <a class="dropdown-item" href="published-notes.html">Published Notes</a>
+                            <a class="dropdown-item" href="download-notes.html">Downloaded Notes</a>
+                            <a class="dropdown-item" href="rejected-notes.html">Rejected Notes</a> 
+                        </div>
+                       </div>
+                   <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+                   
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p>Reports</p></a>
+                                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="spam-reports.html">Spam Reports</a> 
+                        </div>
+                    </div>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/reviewer-1.png" alt="reviewer" class="img-responsive reviewer" height="40px" width="40px"></a>
+                                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Update Profile</a>
+                            <a class="dropdown-item" href="#">Change Password</a>
+                            <a class="dropdown-item button" href="#">Logout</a> 
+                        </div>
+                    </div>
+                   
+               </ul>
+                <div id="logout">
+                    <a class="btn" href="#" title="logout" role="button">Logout</a>
+                </div>
+           </div>
+       </nav> 
+    </header>
+    <!-- header ends -->
+       
+        <!-- dashboard -->
+        <section id="dashboard">
+    
+            <div class="content-box-lg">
+    
+                <div class="container">
+    
+                    <div class="row">
+                        <div class="col-md-12">
+                           
+                           <div id="heading">
+                               <h4>Dashboard</h4>
+                           </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-4">
+                            
+                            <div class="dashboard-content text-center">
+                                
+                                <h4>20</h4>
+                                <p>Number of Notes in Review for Publish</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            
+                            <div class="dashboard-content text-center">
+                                
+                                <h4>103</h4>
+                                <p>Numbers of New Notes Downloaded</p>
+                                <p>(Last 7 Days)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="dashboard-content text-center">
+                                <h4>223</h4>
+                                <p>Numbers of New Registrations(Last 7 Days)</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ends -->
+    
+    
+    <section id="published-notes">
+        <div class="container">
+            <div class="row">
+                        
+                <div class="col-md-6">
+                    <div class="table-heading">
+                        <h4>Published Notes</h4>
+                    </div>
+                </div>
+                        
+                <div class="col-md-6">
+                    <div id="search-bar-button" class="text-right">
+                        <input type="text" placeholder="Search" name="search" id="search">
+                        <img src="images/search-icon.png" class="img-responsive search">
+                        <a class="btn btn-general smooth-scroll" href="#" title="Search" role="button">Search</a>
+                        <input type="text" placeholder="Select month" id="select-month">
+                        <img src="images/arrow-down.png" class="arrow-down" alt="arrow-down">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+               <div class="col-md-12">
+                <table class="table">
+                    <tr>
+                    <th>SR NO.</th>
+                    <th>TITLE</th>
+                    <th>CATEGORY</th>
+                    <th>ATTACHMENT SIZE</th>
+                    <th>SELL TYPE</th>
+                    <th>PRICE</th>
+                    <th>PUBLISHER</th>
+                    <th>PUBLISHED DATE</th>
+                    <th align="center">NUMBER OF DOWNLOADS</th>
+                    <th></th>
+                    </tr>
+                    <tr>
+                    <td>1</td>
+                    <td class="title">Data Science</td>
+                    <td>Science</td>
+                    <td>10 KB</td>
+                    <td>Free</td>
+                    <td>$0</td>
+                    <td>Pritesh Panchal</td>
+                    <td>09-10-2020, 10:10</td>
+                    <td>10</td>
+                    <td>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                              
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Download Notes</a>
+                                <a class="dropdown-item" href="#">View More Details</a>
+                                <a class="dropdown-item" href="#">Unpublish</a>
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td class="title">Accounts</td>
+                    <td>Commerce</td>
+                    <td>23 MB</td>
+                    <td>Paid</td>
+                    <td>$22</td>
+                    <td>Rahil Shah</td>
+                    <td>10-10-2020, 12:30</td>
+                    <td>21</td>
+                    <td>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                              
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Download Notes</a>
+                                <a class="dropdown-item" href="#">View More Details</a>
+                                <a class="dropdown-item" href="#">Unpublish</a>
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td class="title">Social Studies</td>
+                    <td>Social</td>
+                    <td>3 MB</td>
+                    <td>Paid</td>
+                    <td>$56</td>
+                    <td>Anish Patel</td>
+                    <td>11-10-2020, 01:00</td>
+                    <td>13</td>
+                    <td>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                              
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Download Notes</a>
+                                <a class="dropdown-item" href="#">View More Details</a>
+                                <a class="dropdown-item" href="#">Unpublish</a>
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>4</td>
+                    <td class="title">AI</td>
+                    <td>IT</td>
+                    <td>1 MB</td>
+                    <td>Free</td>
+                    <td>$0</td>
+                    <td>Vijay Vaishnav</td>
+                    <td>12-10-2020, 10:10</td>
+                    <td>34</td>
+                    <td>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                              
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Download Notes</a>
+                                <a class="dropdown-item" href="#">View More Details</a>
+                                <a class="dropdown-item" href="#">Unpublish</a>
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>5</td>
+                    <td class="title">Lorem ipsum</td>
+                    <td>Lorem</td>
+                    <td>105 KB</td>
+                    <td>Paid</td>
+                    <td>$90</td>
+                    <td>Mehul Patel</td>
+                    <td>13-10-2020, 11:25</td>
+                    <td>9</td>
+                    <td>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                              
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Download Notes</a>
+                                <a class="dropdown-item" href="#">View More Details</a>
+                                <a class="dropdown-item" href="#">Unpublish</a>
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- pagination -->
+    <nav aria-label="Page navigation example" class="text-center">
+        <ul class="pagination">
+            <li class="page-item left-arrow"><a class="page-link" href="#"><img src="images/left-arrow.png" class="img-responsive" id="left-arrow"></a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item right-arrow"><a class="page-link" href="#"><img src="images/right-arrow.png" class="img-responsive" id="right-arrow"></a></li>
+        </ul>
+    </nav>
+    
+    <hr>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Version:1.1.24</p>
+                </div>
+                
+                <div class="col-md-6 text-right">
+                    <p>Copyright &copy; TatvaSoft All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+      
+</html>

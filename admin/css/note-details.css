@@ -1,0 +1,171 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.note-heading h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+    margin: 60px 0 20px 0;
+}
+
+.note-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    overflow: hidden;
+    width: 240px;
+    margin: 10px 40px 0 0;
+}
+
+.heading, 
+.left-list,
+.right-list{
+    margin-top: 20px;
+}
+.heading h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+p.small-heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333333;
+}
+
+.heading p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+}
+
+#download-btn a{
+    
+    background: #6255a5;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px;
+}
+
+ul.list {
+    list-style: none;
+}
+
+.left-list ul.list li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #333333;
+}
+
+.right-list ul.list li {
+    
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #6255a5;
+}
+
+.right-list ul.list li img {
+    width: 15px;
+}
+
+.responsive {
+    position: relative;
+}
+
+.responsive iframe {
+    position: absolute;
+    width: 550px;
+    height: 515px;
+    border: 1px solid #d1d1d1;
+}
+/* review */
+.reviews {
+    
+    border: 1px solid #d1d1d1;
+    padding: 30px;
+}
+
+.reviewer-name h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+}
+
+.rating img {
+    width: 20px;
+}
+
+.text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 10px
+}
+
+/* delete icon */
+.delete {
+    position: absolute;
+    right: 2em;
+}
+
+#footer ul.social-list li a {
+    color: #fff;
+    border: 1px solid #6255a5;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    border-radius: 50%;
+    background: #6255a5;
+    text-align: center;
+    
+}
+
+#footer ul.social-list li img {
+    margin-bottom: 8px;
+}
+
+ul.social-list {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 10px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#footer p {
+    margin-top: 10px;
+}

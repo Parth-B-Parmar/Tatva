@@ -1,0 +1,53 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* headings */
+form h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #6255a5;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+input[type="text"]{
+    width: 550px;
+    border: 1px solid #d1d1d1;
+}
+
+#submit a{
+    
+    background: #6255a5;
+    width: 110px;
+    height: 40px;
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    margin-top: 20px;
+}

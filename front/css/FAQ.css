@@ -1,0 +1,29 @@
+/* heading and background image */
+#faq-page {
+    background: url("../images/FAQ/banner-with-overlay.jpg") no-repeat center;
+    background-size: cover;
+    padding: 60px;
+}
+
+/* accordation */
+.card {
+    border: 1px solid #d1d1d1;
+}
+
+.btn-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+}
+
+/* plus image */
+.plus {
+    position: absolute;
+    right: 1rem;
+}
+
+.active.card-header{
+    background-color: #fff;
+}

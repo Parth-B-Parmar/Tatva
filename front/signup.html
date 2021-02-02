@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!--  Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="css/signup.css">
+    
+    <title>Notes MarketPlace</title>
+</head>
+
+<body>
+    
+    <section>
+        
+        <img id="banner" src="images/pre-login/banner-with-overlay.jpg" alt="banner" class="img-responsive">
+        <h6><img id="logo" src="images/pre-login/top-logo.png" alt="top-logo" class="img-responsive">
+        </h6>
+        
+        <div id="signup" class="text-center" align="center">
+           
+            <form>
+                
+                <h4>Create an Account</h4>
+                <p>Enter your details to signup</p>
+                
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" id="first-name" placeholder="Enter your first name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" id="last-name" placeholder="Enter your last name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    <span><img class="eye" src="images/pre-login/eye.png" alt="eye" class="img-responsive" onclick="myFunction()"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" class="form-control" id="confirm-password" placeholder="Re-enter your password">
+                    <span><img class="eye" src="images/pre-login/eye.png" alt="eye" class="img-responsive" onclick="myFunction1()"></span>
+                </div>
+                
+                <div id="signup-button">
+                    <a class="btn" href="#" title="Sign up" role="button">SIGN UP</a>
+                </div>
+                
+                <div id="footer">
+                    <p class="text">Already have an account?<a href="#"> Login</a></p>
+                </div>
+            </form> 
+        </div>
+    </section>
+</body>
+
+<!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    
+<!-- JS -->
+    <script src="js/signup.js"></script>  
+</html>

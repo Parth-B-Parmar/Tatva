@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!--  Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="css/download-notes.css">
+    
+    <title>Notes MarketPlace</title>
+</head>
+
+<body>
+   <section id="manage-admin">
+       <div class="content-box-lg">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div id="heading">
+                           <h4>Downloaded Notes</h4>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+
+                                   <label>Note</label>
+                                   <select class="form-control" id="select">
+                                       <option>Select Note</option>
+                                   </select>
+                                   <img src="images/arrow-down.png" class="img-responsive arrow-down" alt="arrow-down">
+                                </div>
+                            </div>
+
+                           <div class="col-md-4">
+                               <div class="form-group">
+                                   <label>Seller</label>
+                                   <select class="form-control" id="select">
+                                       <option>Select Seller</option>
+                                   </select>
+                                   <img src="images/arrow-down.png" class="img-responsive arrow-down" alt="arrow-down">
+                               </div>
+                           </div>
+
+                           <div class="col-md-4">
+                               <div class="form-group">
+                                   <label>Buyer</label>
+                                   <select class="form-control" id="select">
+                                       <option>Rahul Shah</option>
+                                   </select>
+                                   <img src="images/arrow-down.png" class="img-responsive arrow-down" alt="arrow-down">
+                               </div>
+                           </div>
+
+                        </div>
+                   </div>
+                   
+                   <div class="col-md-6 text-right">
+                       <br>
+                       <div id="search-bar">
+                           <input type="search" class="form-control" id="search" placeholder="Search">
+                           <span><img src="images/search-icon.png" alt="search-icon" class="img-responsive search-icon"></span>
+                       </div>
+                       
+                       <div id="search-btn">
+                           <a class="btn" href="#" title="Search" role="button">Search</a>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="row">
+                   <div class="col-md-12">
+                        <table class="table">
+                            <tr>
+                            <th>SR NO.</th>
+                            <th>note title</th>
+                            <th>category</th>
+                            <th>buyer</th>
+                            <th>seller</th>
+                            <th>sell type</th>
+                            <th>price</th>
+                            <th class="text-center">downloaded date/time</th>
+                            <th></th>
+                            </tr>
+                            <tr>
+                            <td>1</td>
+                            <td class="link">Software Development</td>
+                            <td>IT</td>
+                            <td>Rahul Shah<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Khyati Patel<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Paid</td>
+                            <td>$145</td>
+                            <td class="text-center">25-11-2020,11:08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                                    
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Download Notes</a>
+                                        <a class="dropdown-item" href="#">View More Details</a>
+                                    </div>
+                                </div>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>2</td>
+                            <td class="link">Computer Basic</td>
+                            <td>Computer</td>
+                            <td>Rahul Shah<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Nikunj Shah<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Free</td>
+                            <td>$0</td>
+                            <td class="text-center">20-11-2020,11:08</td>
+                            <td><div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                                    
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Download Notes</a>
+                                        <a class="dropdown-item" href="#">View More Details</a>
+                                    </div>
+                                </div></td>
+                            </tr>
+                            <tr>
+                            <td>3</td>
+                            <td class="link">Human Body</td>
+                            <td>Science</td>
+                            <td>Rahul Shah<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Raj Seth<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Paid</td>
+                            <td>$204</td>
+                            <td class="text-center">08-11-2020,04:08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                                    
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Download Notes</a>
+                                        <a class="dropdown-item" href="#">View More Details</a>
+                                    </div>
+                                </div>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>4</td>
+                            <td class="link">world war 2</td>
+                            <td>History</td>
+                            <td>Rahul Shah<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Niya Patel<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Paid</td>
+                            <td>$58</td>
+                            <td class="text-center">17-10-2020,12:30</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                                    
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Download Notes</a>
+                                        <a class="dropdown-item" href="#">View More Details</a>
+                                    </div>
+                                </div>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>5</td>
+                            <td class="link">Accounting</td>
+                            <td>Account</td>
+                            <td>Rahul Shah<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Rohit Gajera<img src="images/eye.png" alt="eye" class="img-responsive eye"></td>
+                            <td>Paid</td>
+                            <td>$204</td>
+                            <td class="text-center">12-12-2019,17:45</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="dots" class="img-responsive dots"></a>
+                                    
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Download Notes</a>
+                                        <a class="dropdown-item" href="#">View More Details</a>
+                                    </div>
+                                </div>
+                            </td>
+                            </tr>
+                        </table>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </section>
+    
+    <!-- pagination -->
+    <nav aria-label="Page navigation example" class="text-center">
+        <ul class="pagination">
+            <li class="page-item left-arrow"><a class="page-link" href="#"><img src="images/left-arrow.png" class="img-responsive" id="left-arrow"></a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item right-arrow"><a class="page-link" href="#"><img src="images/right-arrow.png" class="img-responsive" id="right-arrow"></a></li>
+        </ul>
+    </nav>
+    
+    <hr>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Version:1.1.24</p>
+                </div>
+                
+                <div class="col-md-6 text-right">
+                    <p>Copyright &copy; TatvaSoft All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    
+<!-- JS -->
+    <script src="js/script.js"></script>  
+</html>
