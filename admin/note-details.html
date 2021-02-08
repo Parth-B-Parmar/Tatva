@@ -21,6 +21,53 @@
 
 <body>
     
+    <!-- header -->
+    <header>
+       <nav class="navbar navbar-expand-lg fixed-top white-nav-top">
+           <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+           <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                   <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p>Notes</p></a>
+                                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="notes-under-review.html">Notes Under Review</a>
+                            <a class="dropdown-item" href="published-notes.html">Published Notes</a>
+                            <a class="dropdown-item" href="download-notes.html">Downloaded Notes</a>
+                            <a class="dropdown-item" href="rejected-notes.html">Rejected Notes</a> 
+                        </div>
+                       </div>
+                   <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+                   
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p>Reports</p></a>
+                                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="spam-reports.html">Spam Reports</a> 
+                        </div>
+                    </div>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/reviewer-1.png" alt="reviewer" class="img-responsive reviewer" height="40px" width="40px"></a>
+                                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Update Profile</a>
+                            <a class="dropdown-item" href="#">Change Password</a>
+                            <a class="dropdown-item button" href="#">Logout</a> 
+                        </div>
+                    </div>
+                   
+               </ul>
+                <div id="logout">
+                    <a class="btn" href="#" title="logout" role="button">Logout</a>
+                </div>
+           </div>
+       </nav> 
+    </header>
+    <!-- header ends -->
+       
         <!--Note-details  -->
         <section id="note-details">
     
@@ -251,5 +298,12 @@
         </div>
     </footer>
 </body>
-  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+<!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- jquery -->
+    <script src="js/jquery.min.js"></script>
 </html>

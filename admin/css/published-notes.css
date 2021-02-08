@@ -110,10 +110,6 @@ label {
     color: #6255a5;
 }
 /* pagination */
-nav {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 ul.pagination li a{
     border: #fff;
     text-decoration: none;
@@ -213,4 +209,73 @@ ul.pagination li a:hover {
 
 .btn {
     padding: 0;
+}
+
+a.button {
+    color: #6255a5;
+    text-transform: uppercase;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+    background: #6255a5;
+    color: #fff;
+}
+
+.dropdown a p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    padding: 0 30px;
+    margin-top: 25px
+}
+
+.dropdown a img {
+    margin-top: 15px;
+}
+
+/* navigation */
+.navbar {
+    padding: 0 100px;
+}
+
+.navbar-brand {
+    margin-bottom: 20px;
+}
+
+ul.navbar-nav > li > a {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    padding: 0 30px;
+    margin: 25px 8px;
+}
+
+/* logout button */
+#logout a{
+    background: #6255a5;
+    width: 89px;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+/* white bar */
+.white-nav-top {
+    background: #fff;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+}
+
+#published-notes {
+    margin-top: 110px;
 }

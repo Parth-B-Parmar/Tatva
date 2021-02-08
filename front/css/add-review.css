@@ -1,6 +1,6 @@
 .content-box-lg {
-    height: 426px;
-    width: 580px;
+    height: 450px;
+    width: 530px;
     padding: 30px 50px;
     background-color: #ffffff;
 }
@@ -17,6 +17,8 @@
 .cancel img {
     width: 18px;
     height: 18px;
+    position: absolute;
+    right: 1px;
 }
 
 .stars img{
@@ -65,10 +67,11 @@ input[type="text-area"]::-webkit-input-placeholder {
 }
 
 body {
-    width: 1920px;
-    height: 1920px;
-    background-color: #000000;
-    opacity: 40%;
-    z-index: ;
-    
+    background: rgba(0,0,0,0.4);
+}
+
+#add-review {
+    position: relative;
+    top: 100px;
+    left: 30%;
 }
