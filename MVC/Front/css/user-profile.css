@@ -1,0 +1,221 @@
+html,
+body {
+    height: 100%;
+}
+
+#user {
+    
+    background: url("../images/User-Profile/banner-with-overlay.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* content boxes */
+.content-box-lg {
+    
+    padding: 120px 0;
+    height: 250px;
+}
+
+#name h3 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+    font-size: 48px;
+}
+
+/* basic information */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    position: relative;
+}
+
+#calender {
+    position: absolute;
+    top: 38px;
+    right: 30px;
+    width: 17px;
+}
+
+#basic h4 {
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color: #6255a5;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: "Open Sans", sans-serif;
+}
+
+label {
+    
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+::-webkit-input-placeholder {
+    
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+#country-code {
+    width: 100px;
+    margin-right: 15px;
+}
+
+#country-code,
+#number {
+    display: inline-block;
+    
+}
+
+#number {
+    width: 420px;
+}
+
+/* arrow-down */
+.arrow-down {
+    position: absolute;
+    top: 43px;
+    left: 90px;
+}
+
+#profile-picture {
+    
+    height: 110px;
+}
+
+#upload {
+    
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+input[type="text-area"]::-webkit-input-placeholder {
+    text-align: center;
+    transform: translateY(25px);
+}
+
+#address h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #6255a5;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#college-university h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #6255a5;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#submit a{
+    
+    background: #6255a5;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    font-style: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+
+}
+
+/* footer */
+#footer ul.social-list li a {
+    color: #fff;
+    border: 1px solid #6255a5;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    border-radius: 50%;
+    background: #6255a5;
+    text-align: center;
+    
+}
+
+#footer ul.social-list li img {
+    margin-top: 8px;
+}
+
+ul.social-list {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 5px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#footer p {
+    margin-top: 10px;
+}
+
+/* navigation */
+.navbar {
+    padding: 0 100px;
+}
+
+.navbar-brand {
+    padding: 13px 0;
+}
+
+ul.navbar-nav > li > a {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    padding: 0 30px;
+    margin: 13px 8px;
+}
+
+/* logout button */
+#logout a{
+    background: #6255a5;
+    width: 89px;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    padding: 3px;
+}
+
+/* white bar */
+.white-nav-top {
+    background: #fff;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}

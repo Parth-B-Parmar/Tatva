@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content {
+    padding: 30px 30px 0 30px;
+}
+
+/* success img */
+#success {
+    width: 63px;
+    height: 63px;
+    text-align: center;
+}
+
+.modal-header h5 {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+    margin-top: 10px;
+}
+
+.modal-header {
+    display: block;
+    border-bottom: none;
+    position: relative
+}
+
+button {
+    position: absolute;
+    right: -10px;
+    top: -20px;
+}
+.modal-body .name {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+}
+
+p.urgency {
+    margin: 0;
+}
+
+p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
