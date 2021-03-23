@@ -1,9 +1,0 @@
-/* Media Queries */
-/* large devices */
-@media (min-width: 1200px) and (max-width: 1299px) {
-    
-    /* navbar */
-    .navbar {
-        padding: 0 50px;
-    }
-}
