@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!--  Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/Font-Awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Notes MarketPlace</title>
+</head>
+
+<body>
+    
+    <!-- header -->
+    <header>
+       <nav class="navbar navbar-expand-lg fixed-top">
+           <a class="navbar-brand" href="#"><img src="images/images/top-logo.png"></a>
+           <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item"><a class="nav-link" href="search.html">Search Notes</a></li>
+                   <li class="nav-item"><a class="nav-link" href="my-sold-notes.html">Sell Your Notes</a></li>
+                   <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
+                   <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+               </ul>
+                <div id="login">
+                    <a class="btn" href="login.html" title="login" role="button">Login</a>
+                </div>
+           </div>
+       </nav> 
+    </header>
+    <!-- header ends -->
+    
+    <section id="home">
+        
+        <div id="home-content">
+            
+            <div id="home-content-inner">
+                
+                <div id="home-heading">
+                    
+                    <h1>Download Free/Paid Notes</h1><br>
+                    <h1>or Sale your Book</h1>
+                </div>
+                
+                <div id="home-text">
+                    
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the<br> 1500s, when an unknown printer took a gallery of type.</p>
+                </div>
+                
+                <div id="home-btn">
+                    
+                    <a class="btn btn-general btn-home smooth-scroll" href="#" title="Learn more" role="button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-notes">
+        <div id="about">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="heading">
+                                <div id="about-left">
+                                    <h2>About<br>NotesMarketPlace</h2>
+                                </div>
+                            </div>    
+                        </div>
+                        
+                        <div class="col-md-6">
+                            
+                            <div id="about-right">
+                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo itaque deserunt, numquam sint. Repudiandae ipsam, ad, laborum quaerat et enim vel optio soluta id, molestias distinctio minima odio inventore. Doloribus. odio ad</p>
+                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eum odio voluptatum. Dolore, temporibus, repellendus aliquid maxime deleniti ipsum itaque vero ea. Voluptate magni possimus ea </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- work -->
+    <section id="works">
+        
+        <div id="work">
+            
+            <div class="content-box-lg">
+                <div class="container">
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            
+                            <div class="horizontal-heading text-center">
+                                
+                                <h4>How it Works</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-6 text-center">
+                            
+                            <div id="image-download">
+                                <img id="download" src="images/home/download.png" alt="download" class="img-responsive">
+                            </div>
+                            <div class="heading">
+                                
+                                <h4>Download Free/Paid Notes</h4>
+                            </div>
+                            
+                            <div class="text">
+                                
+                                <p>Get Material for your <br>Course etc.</p>
+                            </div>
+                            
+                            <div id="download-btn">
+                                
+                                <a class="btn btn-general btn-home smooth-scroll" href="#" title="download" role="button">Download</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="col-md-6 text-center">
+                            <div id="image-seller">
+                                <img id="seller"src="images/home/seller.png" alt="seller" class="img-responsive">
+                            </div>
+                            <div class="heading">
+                                
+                                <h4>Seller</h4>
+                            </div>
+                            
+                            <div class="text">
+                                
+                                <p>Upload and Download Cource <br>and Materials etc.</p>
+                            </div>
+                            
+                            <div id="seller-btn">
+                                
+                                <a class="btn btn-general btn-home smooth-scroll" href="#" title="Sell Book" role="button">Sell Book</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="customers">
+        
+        <div id="customer">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+                            <div class="horizontal-heading text-center">
+                                
+                                <h4>What our Customers are Saying</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            
+                            <div class="employee">
+                               
+                                    <div class="row">
+                                    <div class="col-md-2">
+
+                                        <img src="images/home/customer-1.png" alt="customer" class="img-responsive img-circle">
+                                    </div>
+
+                                    <div class="col-md-10">
+
+                                        <div class="employee-name-des">
+
+                                            <p class="name">Walter Meller</p>
+                                            <p class="des">Founder & CEO, Matrix Group</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 customer-text">
+
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, soluta ab praesentium est sint aperiam eius reiciendis quo odio voluptas dignissimos tempore distinctio, ut doloribus."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            
+                            <div class="employee">
+                               
+                                <div class="row">
+                                    <div class="col-md-2">
+
+                                        <img src="images/home/customer-2.png" alt="customer" class="img-responsive img-circle">
+                                    </div>
+
+                                    <div class="col-md-10">
+
+                                        <div class="employee-name-des">
+
+                                            <p class="name">Jonnie Riley</p>
+                                            <p class="des">Employee, Curious Snakcs</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 customer-text">
+
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, soluta ab praesentium est sint aperiam eius reiciendis quo odio voluptas dignissimos tempore distinctio, ut doloribus."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            
+                            <div class="employee">
+                                
+                                <div class="row">
+                                    <div class="col-md-2">
+
+                                        <img src="images/home/customer-3.png" alt="customer" class="img-responsive img-circle">
+                                    </div>
+
+                                    <div class="col-md-10">
+
+                                        <div class="employee-name-des">
+
+                                            <p class="name">Amilia Luna</p>
+                                            <p class="des">Teacher, Saint Joseph High School</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 customer-text">
+
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, soluta ab praesentium est sint aperiam eius reiciendis quo odio voluptas dignissimos tempore distinctio, ut doloribus."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            
+                            <div class="employee">
+                               
+                                <div class="row">
+                                    <div class="col-md-2">
+
+                                        <img src="images/home/customer-4.png" alt="customer" class="img-responsive img-circle">
+                                    </div>
+
+                                    <div class="col-md-10">
+
+                                        <div class="employee-name-des">
+
+                                            <p class="name">Daniel Cardos</p>
+                                            <p class="des">Software Developer, Infinitum Company</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 customer-text">
+
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, soluta ab praesentium est sint aperiam eius reiciendis quo odio voluptas dignissimos tempore distinctio, ut doloribus."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright &copy; TatvaSoft All rights reserved.</p>
+                </div>
+                
+                <div class="col-md-6">
+                    <ul class="social-list">
+                        
+                        <li><a href="#"><img src="images/images/facebook.png" class="img-responsive" alt="facebook"></a></li>
+                        <li><a href="#"><img src="images/images/twitter.png" class="img-responsive" alt="twitter"></a></li>
+                        <li><a href="#"><img src="images/images/linkedin.png" class="img-responsive" alt="linkedin"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    
+<!-- JS -->
+    <script src="js/script.js"></script>  
+</html>

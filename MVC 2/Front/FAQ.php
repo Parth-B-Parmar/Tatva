@@ -1,0 +1,279 @@
+<html lang="en">
+    
+    <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!--  Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="css/FAQ.css">
+    
+    <title>Notes MarketPlace</title>
+</head>
+
+<body>
+    
+    <!-- header -->
+    <header>
+       <nav class="navbar navbar-expand-lg fixed-top white-nav-top">
+           <a class="navbar-brand" href="#"><img src="images/Contact-Us/logo.png"></a>
+           <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item"><a class="nav-link" href="search.html">Search Notes</a></li>
+                   <li class="nav-item"><a class="nav-link" href="my-sold-notes.html">Sell Your Notes</a></li>
+                   <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
+                   <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+               </ul>
+                <div id="login">
+                    <a class="btn" href="login.html" title="login" role="button">Login</a>
+                </div>
+           </div>
+       </nav> 
+    </header>
+    <!-- header ends -->
+    
+    <section id="faq-page">
+        
+        <div class="content-box-lg">
+            
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        
+                        <div id="heading" class="text-center">
+                            
+                            <h3>Frequently Asked Questions</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- content -->
+    <section id="general-question">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h4>General Questions</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is Marketplace-Notes?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample1">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    What do the university say?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample1">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample2">
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    is this legal?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample2">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- uploaders -->
+    <section id="uploaders">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h4>Uploaders</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample3">
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    What can't I sell?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample3">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample4">
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                    What notes can I sell?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample4">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- downloaders -->
+    <section id="downloaders">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h4>Downloaders</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample5">
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                    How do I buy notes?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample5">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample6">
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                    Can i edit the notes I purchased?<img src="images/FAQ/add.png" alt="plus" class="img-responsive plus" onclick="change()">
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample6">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis eligendi eaque eum delectus error omnis doloremque perferendis, amet enim, ratione illo voluptatem atque ab quia consequuntur asperiores aperiam at! 
+                               </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright &copy; TatvaSoft All rights reserved.</p>
+                </div>
+                
+                <div class="col-md-6">
+                    <ul class="social-list">
+                        
+                        <li><a href="#"><img src="images/images/facebook.png" class="img-responsive" alt="facebook"></a></li>
+                        <li><a href="#"><img src="images/images/twitter.png" class="img-responsive" alt="twitter"></a></li>
+                        <li><a href="#"><img src="images/images/linkedin.png" class="img-responsive" alt="linkedin"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>    
+<!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    
+<!-- JS -->
+    <script src="js/FAQ.js"></script>
+</html>
