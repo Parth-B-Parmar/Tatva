@@ -1,0 +1,149 @@
+/* heading */
+#heading h3{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 42px;
+}
+
+#contact-us {
+    background: url("../images/Contact-Us/banner-with-overlay.jpg") no-repeat center;
+    background-size: cover;
+    padding: 120px;
+    height: 240px;
+}
+
+.title h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+    margin-top: 60px;
+}
+
+.title p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+
+#comment {
+    height: 200px;
+}
+
+input[type="text-area"]::-webkit-input-placeholder {
+    transform: translateY(-70px)
+}
+
+#submit button {
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #6255a5;
+    text-transform: uppercase;
+    padding: 7px;
+    margin-top: 30px;
+    
+}
+
+#footer ul.social-list li a {
+    color: #fff;
+    border: 1px solid #6255a5;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    border-radius: 50%;
+    background: #6255a5;
+    text-align: center;
+    
+}
+
+#footer ul.social-list li img {
+    margin-top: 8px;
+}
+
+ul.social-list {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 5px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#footer p {
+    margin-top: 10px;
+}
+
+/* navigation */
+.navbar {
+    padding: 0 100px;
+}
+
+.navbar-brand {
+    padding: 13px 0;
+}
+
+ul.navbar-nav > li > a {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    padding: 0 30px;
+    margin: 13px 8px;
+}
+
+/* login button */
+#login a{
+    background: #6255a5;
+    width: 89px;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    padding: 3px;
+}
+
+/* white bar */
+.white-nav-top {
+    background: #fff;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+}
