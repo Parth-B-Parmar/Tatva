@@ -1,0 +1,28 @@
+.rapStar {
+  display: block;
+  color: white;
+  cursor: pointer;
+  font-size: 32px;
+  margin: auto;
+  position: relative;
+  /* text-shadow: 0px 0px 2px black; */
+  text-shadow: -1px -1px 1px #808080, 1px -1px 1px #808080, -1px 1px 1px #808080,
+    1px 1px 1px #808080;
+  margin: 0px;
+  display: table;
+  clear: both;
+  user-select: none;
+}
+
+.rapStarFront {
+  top: 0px;
+  color: yellow;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.rapStarDisable {
+  cursor: default;
+}
